@@ -10,10 +10,11 @@ export default function About() {
         <div className={AboutStyles.portrait}></div>
 
         <div className={AboutStyles.info}>
-          <h2>Test</h2>
+          <h2>Madebyll</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Praesentium, corrupti.
+            Hallo, bedankt voor het bezoeken van deze website. Heeft u vragen
+            over een van de werken of interesse? Dan ben ik te bereiken via de
+            mail.
           </p>
           <Link className={AboutStyles.button} to="/contact">
             Kom in contact!

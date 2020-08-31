@@ -6,28 +6,26 @@ export default function ContactCard() {
   return (
     <div className={ContactCardStyles.contactCard}>
       <div className={ContactCardStyles.contactMessage}>
-        <h3>Get in touch</h3>
+        <h3>Kom in contact!</h3>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-          alias reprehenderit, facilis debitis voluptatem sapiente! Excepturi,
-          voluptate repellat assumenda tenetur eos labore rem ipsam suscipit
-          eius perferendis temporibus iure debitis.
+          Hallo, bedankt voor het bezoeken van deze website. Heeft u vragen over
+          een van de werken of interesse? Dan ben ik te bereiken via de mail.
         </p>
       </div>
       <div className={ContactCardStyles.contactInfo}>
         <div className={ContactCardStyles.contactContainer}>
           <div>
             <img src="/img/icons8-important-mail-50.png" alt="mail" />
-            <p>example@email.com</p>
+            <p>made.by.ll@hotmail.com</p>
           </div>
           <div>
             <img src="/img/icons8-ringing-phone-50.png" alt="phone" />
-            <p>06 12 34 56 78</p>
+            <p>06 36 21 29 37</p>
           </div>
-          <div>
+          {/* <div>
             <img src="/img/icons8-twitter-squared-50.png" alt="twitter" />
             <p>@tweethandle</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

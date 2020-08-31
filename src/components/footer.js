@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className={FooterStyles.footer}>
       <Wrapper>
-        <p>Website made by Rick Koopman, © 2020</p>
+        <p>Madebyll, copyright &copy; 2020</p>
       </Wrapper>
     </footer>
   )
